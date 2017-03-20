@@ -41,8 +41,6 @@
 #define USE_FLM_HEADLOCK
 #define USE_FLM_TURN_ASSIST
 #define TELEMETRY_FRSKY
-
-#define AUTOTUNE_FIXED_WING
 #endif
 
 #if defined(STM_FAST_TARGET)
@@ -52,6 +50,7 @@
 #endif
 
 #if (FLASH_SIZE > 128)
+#define AUTOTUNE_FIXED_WING
 #define ASYNC_GYRO_PROCESSING
 #define BOOTLOG
 #define BOOTLOG_DESCRIPTIONS
