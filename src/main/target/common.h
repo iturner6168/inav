@@ -41,6 +41,8 @@
 #define USE_FLM_HEADLOCK
 #define USE_FLM_TURN_ASSIST
 #define TELEMETRY_FRSKY
+
+#define AUTOTUNE_FIXED_WING
 #endif
 
 #if defined(STM_FAST_TARGET)
